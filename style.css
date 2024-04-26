@@ -1,7 +1,8 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-.body{
+html,h1,p,a,h2,h3,span,body{
     font-family: "Montserrat", sans-serif;
+    box-sizing: border-box;
 }
 
 
@@ -16,6 +17,7 @@ a:active {
 a,
 a:active,
 a:focus {
+    cursor: pointer;
     color: #6f6f6f;
     text-decoration: none;
     transition-timing-function: ease-in-out;
